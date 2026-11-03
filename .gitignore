@@ -1,0 +1,99 @@
+# ==========================================================
+# RetailMind AI - Python / Jupyter / ML project
+# ==========================================================
+
+# ---------- Virtual environments ----------
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+.conda/
+conda-meta/
+
+# ---------- Python bytecode / build artifacts ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---------- Testing / coverage / type checking ----------
+.pytest_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.ruff_cache/
+.hypothesis/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+.nbval/
+
+# ---------- Environment / secrets ----------
+.env
+.env.*
+!.env.example
+*.env
+secrets.toml
+.streamlit/secrets.toml
+
+# ---------- Logs ----------
+*.log
+logs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ---------- ML artifacts (kept on purpose: small files) ----------
+# Dataset and models are currently tracked because they are small.
+# Uncomment the lines below if/when data/ or models/ grows too large.
+# data/
+# models/
+# *.joblib
+# *.pkl
+# *.h5
+# *.pt
+# *.onnx
+# *.ckpt
+
+# ---------- Generated outputs ----------
+outputs/
+figures/
+reports/*.html
+
+# ---------- OS / editor junk ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
