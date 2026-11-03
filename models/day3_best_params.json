@@ -1,0 +1,32 @@
+{
+  "champion": "Random Forest",
+  "selection_metric": "roc_auc",
+  "cv_folds": 5,
+  "random_state": 42,
+  "selection": {
+    "CV ROC-AUC": 0.8464148252813184,
+    "CV ROC-AUC Std": 0.009279535729449447,
+    "CV Recall": 0.7745819397993311,
+    "CV F1": 0.6314456960178811,
+    "Train-CV Gap": 0.0738198939875454,
+    "diagnosis": "High variance (overfitting)"
+  },
+  "best_params": {
+    "Logistic Regression": {
+      "classifier__C": 10.0
+    },
+    "Decision Tree": {
+      "classifier__max_depth": 4,
+      "classifier__min_samples_leaf": 1
+    },
+    "Random Forest": {
+      "classifier__max_depth": 10,
+      "classifier__min_samples_leaf": 5,
+      "classifier__n_estimators": 200
+    },
+    "SVM (RBF)": {
+      "classifier__C": 1.0,
+      "classifier__gamma": 0.01
+    }
+  }
+}
