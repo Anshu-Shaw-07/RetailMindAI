@@ -1,0 +1,13 @@
+{
+    "fashion_mnist_test_accuracy": 0.9063000082969666,
+    "fashion_product_test_accuracy": 0.977774441242218,
+    "fashion_product_test_loss": 0.07786133885383606,
+    "fashion_product_classes": [
+        "Accessories",
+        "Apparel",
+        "Footwear",
+        "Free Items",
+        "Personal Care"
+    ],
+    "image_size": 128
+}
