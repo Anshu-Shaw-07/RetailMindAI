@@ -1,0 +1,31 @@
+{
+  "day": 13,
+  "topic": "Transformers and BERT",
+  "sentiment_model": "c:/Users/ANSHU SHAW/OneDrive/Desktop/RETAILMIND_AI/notebooks/models/day13_bert/sentiment",
+  "routing_model": "c:/Users/ANSHU SHAW/OneDrive/Desktop/RETAILMIND_AI/notebooks/models/day13_bert/routing",
+  "baseline_metrics": {
+    "model": "TF-IDF + LogisticRegression",
+    "accuracy": 0.816,
+    "precision_weighted": 0.8161162258596137,
+    "recall_weighted": 0.816,
+    "f1_weighted": 0.8160058880942095
+  },
+  "bert_sentiment_metrics": {
+    "model": "BERT fine-tuned",
+    "accuracy": 0.922,
+    "precision_weighted": 0.9228590556730092,
+    "recall_weighted": 0.922,
+    "f1_weighted": 0.9219828382838284
+  },
+  "ticket_routing_metrics": {
+    "model": "BERT ticket routing",
+    "accuracy": 0.825,
+    "precision_weighted": 0.680625,
+    "recall_weighted": 0.825,
+    "f1_weighted": 0.7458904109589041
+  },
+  "dataset": "fancyzhx/amazon_polarity",
+  "train_samples": 2000,
+  "test_samples": 500,
+  "device": "cpu"
+}
